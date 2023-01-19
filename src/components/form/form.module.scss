@@ -1,0 +1,33 @@
+.form{
+
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+}
+.input{
+  padding: 5px;
+ 
+  border: solid 3px darkblue;
+  border-radius: 10px;
+  max-width: 200px;
+  margin: 10px auto;
+}
+.btn{
+width: 150px;
+margin: 0 auto;
+border: 2px solid darkblue;
+border-radius: 10px;
+padding: 7px;
+transition: all 0.5s;
+}
+.btn:hover{
+  background-color: aqua;
+}.box{
+  
+  display: flex;
+  gap: 15px;
+  max-width: 1000px;
+  margin: 50px auto;
+  flex-wrap: wrap;
+ justify-content: center;
+}
